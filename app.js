@@ -23,7 +23,7 @@ async function loadContent(path) {
     }
 }
 
-// Função para lidar com a mudança de rota
+// Função para tratar a mudança de rota
 function handleRouteChange() {
     const hash = window.location.hash.substring(1) || '/'; // Pega o hash ou define '/' como padrão
     const path = routes[hash];
